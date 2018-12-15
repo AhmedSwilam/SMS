@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/_10sdp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="RequestSpareParts"
+        android:textSize="@dimen/_16ssp" />
+
+    <EditText
+        android:id="@+id/et_customer_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:hint="Customer Name" />
+
+    <EditText
+        android:id="@+id/et_customer_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Customer Address" />
+
+    <EditText
+        android:id="@+id/et_req_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Request Date" />
+
+    <EditText
+        android:id="@+id/et_delivery_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Delivery Date" />
+
+    <EditText
+        android:id="@+id/et_sparepart_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SparePartType" />
+
+    <EditText
+        android:id="@+id/et_sparepart_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SparePartName" />
+
+    <Button
+        android:id="@+id/btn_req_sparepart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:text="Request"
+        android:textSize="@dimen/_16ssp" />
+
+</LinearLayout>

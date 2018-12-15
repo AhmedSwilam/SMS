@@ -1,0 +1,3 @@
+# Referenced at C:\Users\Ahmed\Downloads\SMS\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:42
+-keep class com.bartech.sms.MvpApp { <init>(...); }
+
